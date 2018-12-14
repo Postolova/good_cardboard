@@ -1,0 +1,15 @@
+@mixin absolute 
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+@mixin circle($width, $color) 
+  width: $width
+  height: $width
+  border-radius: $width/2
+  background-color: $color
+
+//responsive
+@function rem($px) 
+  @return $px / 16px+0rem
