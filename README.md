@@ -1,6 +1,6 @@
 README.md
 ------------------------------------
-## Good Cartboard
+## Good Cartboard site
 
 #### Для работы сборки у Вас должны быть установлены
 * npm
@@ -8,7 +8,7 @@ README.md
 1. git clone https://github.com/egorov-by-egorov/good_cardboard.git
 2. Перейти в папку с проектом.
 3. В терминале запустить комманду npm install для установки пакетов.
-#### Как работать с сборкой
+#### Как работать со сборкой
 1. npm run dev - Для разработки.
 2. npm run build - Для сборки в продакшн.
 3. npm run imagemin - Для оптимизации всех изображений и создания svg спрайта.
